@@ -1,5 +1,5 @@
 body{ 
-    background-color: gray;
+    background-image:url("atl.jpg");
 }
 
 .caps{
@@ -8,3 +8,15 @@ margin: auto;
 width: 50%;
 height: auto;
 }
+
+h3{
+    text-align: center;
+    color: mintcream;
+}
+
+h4{
+    text-align: center;
+    color: cyan;
+}
+
+
