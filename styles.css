@@ -48,6 +48,7 @@ h5{
   .registerButton{
     padding: auto;
     border-radius: 8%;
+    margin: 20px;
   }
 
   body {
