@@ -12,14 +12,14 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"></a><img src="ls.png" alt="Logo" style="height: 50px; width:auto;"></a>
+            <a class="navbar-brand" href="index.html"><img src="ls.png" alt="Logo" style="height: 50px; width:auto;"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link" href="index.html">Home</a>
-                  <a class="nav-link active" class="current" href="reg.html">Register</a>
+                  <a class="nav-link active" href="reg.html">Register</a>
                   <a class="nav-link" href="login.html">Login</a>
                   <a class="nav-link" href="products.html">Products</a>
                   <a class="nav-link" href="checkout.html">Checkout</a>
@@ -29,25 +29,31 @@
             </div>
           </nav>
         </header>
-<div class="register">
-    <div class="register">
-        <h1>Register</h1>
-        <hr>
-        <input placeholder="username" type="text" name="username" class="username" id="username" minlength="3" maxlength="50">
-        <input placeholder="email" type="text" name="email" class="email" id="email" minlength="10" maxlength="50">
-        <input placeholder="password" type="password" name="password" class="password" id="password" minlength="8" maxlength="50">
-        <input placeholder="confirm password" type="password" name="password" class="password" id="password" minlength="8" maxlength="50">
-
-</div>
-</div>
-
-<button id="registerButton">Register</button>
-</div>
+        <div class="register">
+          <div class="form-container">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <div class="mb-3">
+              <label for="passwordConfirm" class="form-label">Password Confirmation</label>
+              <input type="password" class="form-control" id="passwordConfirm">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+          </div>
+        </div>
+<button id="registerButton" class="registerButton">Register</button>
 <h4>How did you hear about us?</h4>
 <div class="how">
     <label><input type="radio" name="how" value="google"> Google </label>
     <label><input type="radio" name="how" value="friend" checked> Friend </label>
-    <label><input type="radio" name="how" value="colleague"> Collegue </label>
+    <label><input type="radio" name="how" value="colleague"> Colleague </label>
 </div>
-
 </body>
