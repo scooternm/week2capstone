@@ -10,7 +10,7 @@ registration page has email, password, password confirmation, and username entry
 ![home](images/register.png)
 
 ## products page 
-products page uses bootstrap cards to display all six products. Products are accompanied by witty one liners and add to cart buttons.
+products page uses bootstrap cards to display all six products. Products are accompanied by witty one liners and functional add to cart buttons.
 ![home](images/products.png)
 
 ## checkout page
